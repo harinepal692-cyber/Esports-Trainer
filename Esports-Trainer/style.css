@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b1220;
+    color: white;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #020617;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    background: #22c55e;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* REACTION BOX */
+#box, #aimBox {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 15px auto;
+    display: none;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+/* GLOBAL PAGE STYLE FIX */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+/* NAV IMPROVEMENT */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
